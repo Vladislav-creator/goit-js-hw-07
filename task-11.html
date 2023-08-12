@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task 10 (optional)</title>
+    <link rel="stylesheet" href="css/common.css" />
+  </head>
+  <body>
+    <p><a href="index.html">Go back</a></p>
+    <form action="submit" class="js-form car-search">
+      <div class="car-group">
+        <input type="text" name="query" class="car-input" placeholder="Поиск" />
+      </div>
+      <div class="car-group">
+        <select name="options" class="car-select">
+          <option value="car">Марка</option>
+          <option value="type">Модель</option>
+        </select>
+      </div>
+      <button class="car-button">Поиск</button>
+    </form>
+    <ul class="js-list car-list"></ul>
+    <script src="js/task-11.js" type="module"></script>
+  </body>
+</html>
